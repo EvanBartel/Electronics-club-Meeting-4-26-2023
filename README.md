@@ -50,14 +50,13 @@ This project demonstrates how to control the built-in LED on an ESP32 developmen
 
 ### Steps
 
-1. Install the required libraries for the Wi-Fi LED Control project (see [Setting up the ESP32](#setting-up-the-esp32)).
 2. Open the `WiFi_LED_Control.ino` sketch in the Arduino IDE.
 3. Modify the `ssid` and `password` variables with your Wi-Fi network credentials.
 4. Upload the sketch to your ESP32 board.
-5. Open the Serial Monitor and check the IP address assigned to your ESP32.
-6. Connect your computer or smartphone to the same Wi-Fi network as your ESP32.
-7. Open a web browser and navigate to the IP address displayed in the Serial Monitor.
-8. The web page should display buttons to turn the LED on and off.
+5. After the upload is complete, a new WiFi access point with the name specified in the `ssid` variable should appear.
+6. Connect to this access point using the password specified in the `password` variable.
+7. Open a web browser and enter the IP address `192.168.4.1`.
+8. The webpage should display two buttons for turning the built-in LED on and off.
 
 ## Project 2: Bluetooth LED Control
 
