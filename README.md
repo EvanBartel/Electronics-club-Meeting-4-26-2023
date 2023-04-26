@@ -5,9 +5,9 @@ This repository contains example projects to control the built-in LED on an ESP3
 ## Table of Contents
 
 1. [ESP32 Overview](#esp32-overview)
-2. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
-3. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
-4. [Setting up the ESP32](#setting-up-the-esp32)
+2. [Setting up the ESP32](#setting-up-the-esp32)
+3. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
+4. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
 
 ## ESP32 Overview
 
@@ -17,6 +17,19 @@ The ESP32 is a powerful microcontroller with integrated Wi-Fi and Bluetooth capa
 - 240 MHz clock frequency
 - 520 KB SRAM
 - Integrated Wi-Fi and Bluetooth (Classic and BLE)
+
+## Setting up the ESP32
+
+Follow the steps below to set up your ESP32 development board:
+
+1. Install the Arduino IDE from the [official website](https://www.arduino.cc/en/software).
+2. Open the Arduino IDE and go to `File` > `Preferences`.
+3. In the "Additional Boards Manager URLs" field, add the following URL:
+   `https://dl.espressif.com/dl/package_esp32_index.json`
+4. Click "OK" to save your changes.
+5. Go to `Tools` > `Board` > `Boards Manager`.
+6. Search for "esp32" and install the package by Espressif Systems.
+7. Hit `install`
 
 ## Project 1: Wi-Fi LED Control
 
@@ -58,17 +71,7 @@ This README file will guide you through the process of setting up your ESP32 dev
 1. Wi-Fi LED Control Project: Turn the built-in LED on and off using a web interface served by the ESP32.
 2. Bluetooth LED Control Project: Control the built-in LED through a Bluetooth serial monitor.
 
-## Setting up the ESP32
 
-Follow the steps below to set up your ESP32 development board:
-
-1. Install the Arduino IDE from the [official website](https://www.arduino.cc/en/software).
-2. Open the Arduino IDE and go to `File` > `Preferences`.
-3. In the "Additional Boards Manager URLs" field, add the following URL:
-   `https://dl.espressif.com/dl/package_esp32_index.json`
-4. Click "OK" to save your changes.
-5. Go to `Tools` > `Board` > `Boards Manager`.
-6. Search for "esp32" and install the package by Espressif Systems.
 
 ## Wi-Fi LED Control Project
 
