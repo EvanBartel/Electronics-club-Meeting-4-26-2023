@@ -7,9 +7,8 @@ This repository contains example projects to control the built-in LED on an ESP3
 1. [ESP32 Overview](#esp32-overview)
 2. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
 3. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
-4. [Project 3: Connecting Two ESP32s](#project-3-connecting-two-esp32s)
-5. [Setting up the ESP32](#setting-up-the-esp32)
-6. [Additional Resources](#additional-resources)
+4. [Setting up the ESP32](#setting-up-the-esp32)
+5. [Additional Resources](#additional-resources)
 
 ## ESP32 Overview
 
@@ -26,15 +25,26 @@ This project demonstrates how to control the built-in LED on an ESP32 developmen
 
 *Source code:* [WiFi_LED_Control.ino](./WiFi_LED_Control/)
 
+### Steps
+
+1. Upload the `WiFi_LED_Control.ino` sketch to your ESP32 board.
+2. Open the Serial Monitor and check the IP address assigned to your ESP32.
+3. Connect your computer or smartphone to the same Wi-Fi network as your ESP32.
+4. Open a web browser and navigate to the IP address displayed in the Serial Monitor.
+5. The web page should display buttons to turn the LED on and off.
+
 ## Project 2: Bluetooth LED Control
 
 This project demonstrates how to control the built-in LED on an ESP32 development board using Bluetooth. A Bluetooth Serial connection is established with the ESP32, and the LED is controlled by sending "ON" or "OFF" commands.
 
 *Source code:* [Bluetooth_LED_Control.ino](./Bluetooth_LED_Control/)
 
-## Project 3: Connecting Two ESP32s
+### Steps
 
-TBD
+1. Upload the `Bluetooth_LED_Control.ino` sketch to your ESP32 board.
+2. Use a Bluetooth Serial Terminal app on your smartphone or computer to scan for available Bluetooth devices.
+3. Connect to the "ESP32_LED_Control" device.
+4. Send the "ON" command to turn the LED on, and the "OFF" command to turn the LED off.
 
 ## Setting up the ESP32
 
@@ -56,12 +66,4 @@ Follow these steps to install the ESP32 board in the Arduino IDE:
 For the Wi-Fi LED Control project, you will need to install the following libraries:
 
 1. ESPAsyncWebServer: [GitHub Repository](https://github.com/me-no-dev/ESPAsyncWebServer)
-2. AsyncTCP: [GitHub Repository](https://github.com/me-no-dev/AsyncTCP)
-
-For the Bluetooth LED Control project, no additional libraries are required as the BluetoothSerial library is already included with the ESP32 boards package.
-
-## Additional Resources
-
-- [ESP32 Official Website](https://www.espressif.com/en/products/socs/esp32)
-- [ESP32 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
-- [ESP32 Official Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html)
+2. AsyncTCP: [GitHub Repository](https://github.com/me-no-dev/Async
