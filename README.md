@@ -10,6 +10,7 @@ This repository contains example projects to control the built-in LED on an ESP3
 4. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
 5. [Uploading the Sketch](#uploading-the-sketch)
 6. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
+7. [Project 3: Two ESP32s' Paired together](#Two-ESP32s'-Paired-together
 
 ## ESP32 Overview
 
@@ -120,3 +121,6 @@ This README file will guide you through the process of setting up your ESP32 dev
    - `OFF`: Turn the LED off.
 
 With these setup instructions and steps for both the Wi-Fi and Bluetooth LED control projects, you should be able to successfully control the built-in LED on your ESP32 development board using Wi-Fi and Bluetooth.
+
+
+## Two ESP32s' Paired together
