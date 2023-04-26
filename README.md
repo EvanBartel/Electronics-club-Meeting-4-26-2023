@@ -26,7 +26,7 @@ The ESP32 is a powerful microcontroller with integrated Wi-Fi and Bluetooth capa
    - Windows: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
    - Mac: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
    - Linux: Built-in kernel support, no need for additional drivers
-   - ChromeBook ¯\_ (ツ)_/¯
+   - ChromeBook ¯\\_ (ツ)_/¯
 2. Restart your computer after installing the drivers.
 
 
