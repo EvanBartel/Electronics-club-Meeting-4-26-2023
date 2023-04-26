@@ -125,8 +125,8 @@ With these setup instructions and steps for both the Wi-Fi and Bluetooth LED con
 
 ## Two ESP32s Paired together
 
-1. Upload the "server" code `ESP32_Client.ino` to one of the ESP32s.
-2. Upload the "client" code `ESP32_Server.ino` to the other ESP32.
+1. Upload the "server" code `ESP32_Server.ino` to one of the ESP32s.
+2. Upload the "client" code `ESP32_Client.ino` to the other ESP32.
 3. When they are noth powered on they will attempt to communicate with the other.
 4. Once Once connected, you can send data between the devices using the Serial Monitor in the Arduino IDE. Data sent from the server will be received by the client and vice versa.
 
