@@ -90,20 +90,6 @@ This README file will guide you through the process of setting up your ESP32 dev
 
 ## Wi-Fi LED Control Project
 
-### Installing Libraries
-
-For the Wi-Fi LED Control project, you will need to install the following libraries:
-
-1. ESPAsyncWebServer: [GitHub Repository](https://github.com/me-no-dev/ESPAsyncWebServer)
-2. AsyncTCP: [GitHub Repository](https://github.com/me-no-dev/AsyncTCP)
-
-To install these libraries, follow the steps below:
-
-1. Download the ZIP files from the GitHub repositories linked above.
-2. Open the Arduino IDE.
-3. Go to `Sketch` > `Include Library` > `Add .ZIP Library...`.
-4. Locate and select the downloaded ZIP files, one at a time, to install the libraries.
-5. After successful installation, the libraries will be available in the `Sketch` > `Include Library` menu.
 
 ### Uploading the Wi-Fi LED Control Sketch
 
@@ -126,8 +112,8 @@ To install these libraries, follow the steps below:
 
 ### Using the Bluetooth LED Control Project
 
-1. Pair your computer or smartphone with the ESP32 board. The device name will be "ESP32_LED_Control".
-2. Use a Bluetooth serial monitor app or software to connect to the ESP32.
+1. Pair your computer or smartphone with the ESP32 board. The device name will be "ESP32_LED_Control" (or whatever you set it to).
+2. Use a Bluetooth serial monitor app or software to connect to the ESP32. (either from your phone or laptop)
 3. Send the following commands to control the built-in LED:
    - `ON`: Turn the LED on.
    - `OFF`: Turn the LED off.
