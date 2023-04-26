@@ -114,7 +114,8 @@ This README file will guide you through the process of setting up your ESP32 dev
 
 ### Using the Bluetooth LED Control Project
 
-1. Pair your computer or smartphone with the ESP32 board. The device name will be "ESP32_LED_Control" (or whatever you set it to).
+1. Pair your computer or smartphone with the ESP32 board. The device name will be "ESP32_LED_Control" (or whatever you set it to) Needs to be android or Laptop.
+   -If using a laptop download and use putty 'https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html'
 2. Use a Bluetooth serial monitor app or software to connect to the ESP32. (either from your phone or laptop)
 3. Send the following commands to control the built-in LED:
    - `ON`: Turn the LED on.
