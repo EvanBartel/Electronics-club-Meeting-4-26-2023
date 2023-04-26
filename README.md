@@ -20,13 +20,13 @@ This guide will help you set up the ESP32 development board with the Arduino IDE
 - Arduino IDE (download from https://www.arduino.cc/en/software)
 - Computer with a USB port and an internet connection
 
-## Installing Drivers
+## Installing Drivers (maybe optional)
 
 1. Download and install the CP210x USB to UART Bridge VCP drivers for your operating system from the Silicon Labs website:
    - Windows: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
    - Mac: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
    - Linux: Built-in kernel support, no need for additional drivers
-2. Restart your computer after installing the drivers.
+2. Restart your computer after installing the drivers (maybe optional).
 
 ## Setting up Arduino IDE
 
