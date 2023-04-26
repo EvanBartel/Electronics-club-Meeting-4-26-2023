@@ -8,7 +8,8 @@ This repository contains example projects to control the built-in LED on an ESP3
 2. [Installing Drivers](#installing-drivers)
 3. [Setting up the ESP32](#setting-up-the-esp32)
 4. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
-5. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
+5. [Uploading the Sketch](#uploading-the-sketch)
+6. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
 
 ## ESP32 Overview
 
@@ -81,7 +82,12 @@ This README file will guide you through the process of setting up your ESP32 dev
 1. Wi-Fi LED Control Project: Turn the built-in LED on and off using a web interface served by the ESP32.
 2. Bluetooth LED Control Project: Control the built-in LED through a Bluetooth serial monitor.
 
+## Uploading the Sketch
 
+1. Connect the ESP32 development board to your computer using the USB cable.
+2. In the Arduino IDE, select the correct ESP32 board from the `Tools > Board` menu.
+3. Set the correct COM port from the `Tools > Port` menu.
+4. Click the "Upload" button in the Arduino IDE to upload the sketch to the ESP32.
 
 ## Wi-Fi LED Control Project
 
