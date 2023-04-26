@@ -1,12 +1,12 @@
-#include <BLE_serial.h>
+#include "BluetoothSerial.h"
 
-BLE_serial SerialBT;
+BluetoothSerial SerialBT;
 
 void setup() {
   Serial.begin(115200);
   Serial.println("Trying to connect to ESP32_Server...");
 
-  if (!SerialBT.begin("ESP32_Server")) { // Set the target server device name
+  if (!SerialBT.connect("ESP32_Server")) { // Set the target server device name
     Serial.println("Couldn't find the target Bluetooth device!");
     return;
   }
