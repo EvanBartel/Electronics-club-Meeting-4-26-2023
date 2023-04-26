@@ -5,9 +5,10 @@ This repository contains example projects to control the built-in LED on an ESP3
 ## Table of Contents
 
 1. [ESP32 Overview](#esp32-overview)
-2. [Setting up the ESP32](#setting-up-the-esp32)
-3. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
-4. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
+2. [Installing Drivers](#installing-drivers)
+3. [Setting up the ESP32](#setting-up-the-esp32)
+4. [Project 1: Wi-Fi LED Control](#project-1-wi-fi-led-control)
+5. [Project 2: Bluetooth LED Control](#project-2-bluetooth-led-control)
 
 ## ESP32 Overview
 
@@ -17,6 +18,15 @@ The ESP32 is a powerful microcontroller with integrated Wi-Fi and Bluetooth capa
 - 240 MHz clock frequency
 - 520 KB SRAM
 - Integrated Wi-Fi and Bluetooth (Classic and BLE)
+
+## Installing Drivers
+
+1. Download and install the CP210x USB to UART Bridge VCP drivers for your operating system from the Silicon Labs website:
+   - Windows: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+   - Mac: https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
+   - Linux: Built-in kernel support, no need for additional drivers
+2. Restart your computer after installing the drivers.
+
 
 ## Setting up the ESP32
 
