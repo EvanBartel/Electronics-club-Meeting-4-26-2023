@@ -4,16 +4,29 @@ BluetoothSerial SerialBT;
 
 void setup() {
   Serial.begin(115200);
-  SerialBT.begin("ESP32_Server"); // Set the server device name
+  SerialBT.begin("ESP32_Server"); // Device name
+  Serial.println("The device started, waiting for a connection...");
 
-  Serial.println("The device started, now you can pair it with Bluetooth!");
+  // Wait for a client to connect
+  while (!SerialBT.hasClient()) {
+    delay(100);
+  }
+  
+  Serial.println("Client connected");
 }
 
 void loop() {
+  // Check if there's incoming data
   if (Serial.available()) {
-    SerialBT.write(Serial.read());
+    char c = Serial.read();
+    SerialBT.write(c); // Send data to the client
   }
+
+  // Check if there's data from the client
   if (SerialBT.available()) {
-    Serial.write(SerialBT.read());
+    char c = SerialBT.read();
+    Serial.write(c); // Print data received from the client
   }
+
+  delay(20);
 }
