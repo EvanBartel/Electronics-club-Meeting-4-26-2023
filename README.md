@@ -43,6 +43,7 @@ Follow the steps below to set up your ESP32 development board:
 5. Go to `Tools` > `Board` > `Boards Manager`.
 6. Search for "esp32" and install the package by Espressif Systems.
 7. Hit `install`
+8. The board will be Node32s
 
 ## Project 1: Wi-Fi LED Control
 
